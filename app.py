@@ -42,7 +42,7 @@ elif(app_mode=="DISEASE RECOGNITION"):
     st.header("Plant Disease Detection System for Sustainable Agriculture")
     test_image = st.file_uploader("Choose an Image:")
     if(st.button("Show Image")):
-        st.image(test_image,width=4,container=True)
+        st.image(test_image,width=4,container_width=True)
     #Predict button
     if(st.button("Predict")):
         st.snow()
